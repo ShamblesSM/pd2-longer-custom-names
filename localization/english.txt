@@ -1,0 +1,14 @@
+{
+    "menu_longercustomnames_title" : "Longer Custom Names",
+    "menu_longercustomnames_desc" : "Change the maximum length of custom names. Note that any overflowing text may not be scrollable.\nRequires a game restart for changes to take effect.",
+    "menu_longercustomnames_mask_weapon_name_title": "Custom Weapon/Mask Name Max Length",
+    "menu_longercustomnames_mask_weapon_name_desc": "Maximum length of custom names for weapons and masks.\nDefault: 30 | Minimum: 20 | Maximum: 40",
+    "menu_longercustomnames_skillset_title": "Skillset Name Max Length",
+    "menu_longercustomnames_skillset_desc": "Maximum length of names for skillsets.\nDefault: 25 | Minimum: 15 | Maximum: 35"
+    "menu_longercustomnames_profile_title": "Profile Name Max Length",
+    "menu_longercustomnames_profile_desc": "Maximum length of names for profiles.\nDefault: 30 | Minimum: 25 | Maximum: 40",
+	
+	"longercustomnames_restart_required": "Restart Required",
+	"longercustomnames_restart_required_desc": "A game restart is required for changes to take effect.",
+	"longercustomnames_button_ok": "OK"
+}

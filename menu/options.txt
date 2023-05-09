@@ -1,0 +1,45 @@
+{
+	"menu_id" : "longercustomnames_options",
+	"parent_menu_id" : "blt_options",
+	"title" : "menu_longercustomnames_title",
+	"description" : "menu_longercustomnames_desc",
+	"back_callback" : "callback_longercustomnames_close",
+	"items" : [
+		{
+			"type" : "slider",
+			"id" : "longercustomnames_mask_weapon_name",
+			"title" : "menu_longercustomnames_mask_weapon_name_title",
+			"description" : "menu_longercustomnames_mask_weapon_name_desc",
+            "callback" : "callback_longercustomnames_mask_weapon_name",
+			"value" : "mask_weapon_name_max_letters",
+			"default_value" : 30,
+			"min" : 20,
+			"max" : 40,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "longercustomnames_skillset",
+			"title" : "menu_longercustomnames_skillset_title",
+			"description" : "menu_longercustomnames_skillset_desc",
+            "callback" : "callback_longercustomnames_skillset",
+			"value" : "skillset_max_letters",
+			"default_value" : 25,
+			"min" : 15,
+			"max" : 35,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "longercustomnames_profile",
+			"title" : "menu_longercustomnames_profile_title",
+			"description" : "menu_longercustomnames_profile_desc",
+            "callback" : "callback_longercustomnames_profile",
+			"value" : "profile_max_letters",
+			"default_value" : 30,
+			"min" : 25,
+			"max" : 40,
+			"step" : 1
+		}
+	]
+}
